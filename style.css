@@ -1,0 +1,110 @@
+body{
+height: 100vh;
+overflow: hidden;
+    margin: 0;
+    font-family: 'Roboto';
+     background-image: url(weather_img.jpeg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  /* background-color: rgb(64, 162, 227); */
+}
+
+.container {
+    height: 560px;
+    width: 360px;
+    background-image: url(Bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 40px;
+     display: flex;
+     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; 
+    border-radius: 14px;
+    border: 4px solid black;
+    /* opacity: 1px; */
+    /* box-shadow: 0px 0px 6px  black inset ; */
+}
+
+input#input_box {
+    box-shadow: 0px 2px 2px gray;
+    padding: 6px 6px;
+    height: 22px;
+    width: 330px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.three_card {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* margin-right: 6px; */
+    margin-top: 10px;
+}
+
+.three_card>* {
+    height: 70px;
+    width: 117px;
+    background-color: #f0808066;
+    border-radius: 6px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.temp_card{
+/* background-color: rgb(64, 162, 216); */
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.humidity{
+    /* background-color:rgb(223, 130, 108); */
+}
+
+.wind_speed{
+    /* background-color: rgb(118, 69, 59); */
+}
+
+.bottom_two_card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.hum_wind_img{
+
+    width: 30px;
+    height: 30px;
+}
+
+.bottom_two_card>* {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+/* span {
+    font-size: 35px;
+} */
+p{
+    margin: 0;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+strong{
+    font-size: 35px;
+}
+strong#celcious {
+    font-size: 100px;
+}
+
